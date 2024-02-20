@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins";
+}
+
+/* Body Style */
+body {
+    width: 250px;
+    height: 300px;
+    background-color: #C5FFF8;
+}
+
+/* Header Style */
+header {
+    background-color: #96EFFF;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main content Style */
+main {
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+main>button {
+    margin: 10px;
+}
+
+main>div {
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Footer Style */
+footer {
+    text-align: center;
+    padding: 5px;
+}
+
+footer>p {
+    border-top: 1px solid black;
+}
+
+
+/* Universal Properites */
+
+button {
+    width: 50%;
+    height: 20%;
+    border-radius: 8px;
+    border: none;
+    background-color: #5FBDFF;
+}
+
+.social-ribbon {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-ribbon>a>img {
+    width: 20px;
+    height: 20px;
+}
